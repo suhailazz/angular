@@ -1,0 +1,325 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <ngb-carousel *ngIf="images">
+                    <ng-template ngbSlide>
+                      <img src="assets/image/slide1.jpg" style="width: 100%; height: 500px;" alt="Random first slide">
+                      <div class="carousel-caption">
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                      <img src="assets/image/slide2.jpg" style="width: 100%; height: 500px;" alt="Random second slide">
+                      <div class="carousel-caption">
+                        <h3>Second slide label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                      <img src="assets/image/slide1.jpg" style="width: 100%; height: 500px;" alt="Random third slide">
+                      <div class="carousel-caption">
+                        <h3>Third slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      </div>
+                    </ng-template>
+                    <ng-template ngbSlide>
+                      <img src="assets/image/slide2.jpg" style="width: 100%; height: 500px;" alt="Random third slide">
+                      <div class="carousel-caption">
+                        <h3>Third slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      </div>
+                    </ng-template>
+                  </ngb-carousel>
+    
+                </div>
+    </div>
+</div>
+<div class="bg">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12" >
+              
+                <div class="grid">
+                  <div class="item">
+                   <div class="col-md-4 col-sm-4">
+                    <div class="box">
+                      <div class="icon center">
+                        <div class="icon1"> <a><i class="flaticon-relax-1"></i></a> </div>
+                        <div class="icon-content">
+                          <h3 class="dez-tilte">Relish In Rest</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>							
+                  
+                  <div class="item">
+                    <div class="col-md-4 col-sm-4">
+                    <div class="box">
+                      <div class="icon center">
+                        <div class="icon1"> <a><i class="flaticon-female-hairs"></i></a> </div>
+                        <div class="icon-content">
+                          <h3 class="dez-tilte">Trendy Hair Style</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
+                        </div>
+                      </div>
+                    </div>							
+                  </div>
+                              </div>
+              <div class="col-md-4 col-sm-4">
+                  <div class="item">
+                    <div class="box">
+                      <div class="icon center">
+                        <div class="icon1 center"> <a><i class="flaticon-massage"></i></a> </div>
+                        <div class="icon-content">
+                          <h3 class="dez-tilte">Pebble Treatment</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod..</p>
+                        </div>
+                      </div>
+                    </div>							
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+<div class="section">
+    <div class="container">
+      <div class="row" style="margin-top: 150px;">
+        <div class="col-md-7 col-sm-6">
+          <div class="cell">
+            <h2>Special Treatments</h2>
+            <div class="spa"></div>
+            <ul class="icon-box"  *ngFor="let head of hedings;" > 
+                <li>{{head}}</li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-5 col-sm-6 col-xs-4">
+          <div class="box-img">
+            <img src="assets/image/33.jpg" data-aos="fade-down" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" />
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+<section class="section-full part" style="margin-top: 30%">
+  <div class="container-fluid">
+    <div class="row con">
+      <div class="col-md-7 col-sm-9">
+        <div class="spa-top" style="margin-left:2% ;">
+          <h2 style="font-size: 65px; color: #fc3d6a;">Spa & Beauty Care</h2>
+          <div class="spa"></div>
+        </div> 
+      </div>
+      <div class="slideshow-container">
+        <div class="mySlides"> 
+          <div class="spa-care-box">
+            <div class="dez-media"> 
+              <div class="media-img"><a><img src="assets/image/pic1.jpg"/></a></div> 
+              <p>We provide the best types of treatment and services at the most reasonable costs. We offer full, comprehensive treatment plans.</p>
+            </div>
+            <div class="dez-info">
+              <div class="box-price">
+                <h2><span class="fley">$20</span>Make me skinny</h2>
+              </div> 
+              <div class="appoint-btn">
+                <a class="fley">APPOINTMENT NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-3">
+        <div >
+          <img src="assets/image/care-bg.jpg"  data-aos="fade-In" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"  alt="" style="width: 100%;"/>
+        </div>
+      </div>
+    </div> 
+  </div>  
+
+</section>          
+<div class="section-full">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-10 col-lg-7 col-sm-12 equal-col ">
+        <div class="callout">
+          <img src="assets/moving-bg.svg"/>
+          <div class="content">
+            <h2>Callout With Moving BG</h2>	
+            <p >The spa Philosophy says women are born beautiful, the aim is to enhance and perfect. Luxurious treatments are designed to simultaneously transform the spirit and beautify the body.</p>
+            <button>Read More</button>
+          </div> 
+        </div> 
+      </div>
+      <div class="col-md-2 col-lg-5 col-sm-12" data-aos="fade-left" data-aos-duration="1.80s" data-aos-delay="0.02s">
+        <div class="dis-tbl-cell-b">
+          <img src="assets/image/46.jpg" style="width: 100%;" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section-full" style="background-image:url(assets/image/bg10.jpg); background-size:100%;" >
+  <div class="container">
+<div class="row">
+<div class="col-md-12 section-head">
+<h2 style="font-size: 65px; color: #fc3d6a;">New Treatments</h2>
+<div class="spa"></div>
+</div>
+</div>
+<div class="row">	
+<div class="col-md-12">
+<div class="time-line clearfix">
+  <div class="line-left clearfix">
+    <div class="line-left-box" >
+      <div class="boxx" data-aos="fade-right" data-aos-duration="1.80s" data-aos-delay="0.25s">
+        <h2 class="text-uppercase">well trained experts</h2>
+        <p class="font-16">We at Dream Spa provide various services to the nature of the clients. we can talk.</p>
+      </div>	
+      <div class="line-num gradient">1</div>
+    </div>
+  </div>
+  <div class="line-right clearfix">
+    <div class="line-right-box">
+      <div  class="boxx" data-aos="fade-left" data-aos-duration="2.80s" data-aos-delay="0.50s">
+        <h2 class="text-uppercase">herbal spa treats</h2>
+        <p>We at Dream Spa provide various services to the nature of the clients. we can talk.</p>
+      </div>	
+      <div class="line-num gradient">2</div>
+    </div>
+  </div>
+  <div class="line-left clearfix">
+    <div class="line-left-box">
+      <div  class="boxx" data-aos="fade-right" data-aos-duration="2.80s" data-aos-delay="0.75s">
+        <h2 class="text-uppercase">scrubs medicine</h2>
+        <p class="font-16">We at Dream Spa provide various services to the nature of the clients. we can talk.</p>
+      </div>		
+      <div class="line-num gradient">3</div>
+    </div>
+  </div>
+                  <div class="line-right clearfix">
+    <div class="line-right-box">
+      <div  class="boxx" data-aos="fade-left" data-aos-duration="2.80s" data-aos-delay="0.50s">
+        <h2 class="text-uppercase">roots & scrub treats</h2>
+        <p>We at Dream Spa provide various services to the nature of the clients. we can talk.</p>
+      </div>		
+      <div class="line-num gradient">4</div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+         
+<div class="section-full bg-white experience-spa-box">
+<div class="container-fluid">
+<div class="row equal-wraper3">
+  <div class="col-md-12 col-sm-2 col-lg-2  p-l0 equal-col hidden-md hidden-sm hidden-xs"></div>
+  <div class="col-md-12 col-lg-10 col-sm-12   p-lr0 equal-col">
+    <div class="callout-box experience-spa">
+      <img src="assets/moving-bg2.svg"/>
+      <div class="callout-content ">
+        <div class="text-white max-w600 m-auto text-center m-b50">
+          <h2>Experience The Spa!</h2>	
+          <p style="color: white;">Happpy Day Spa is where you can find balance, harmony and energy renewal amidst the hectic bustle of everyday pressures and deadlines. Relax & enjoy a personalized day spa experience in our comfortable sanctuary.</p>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-4 col-sm-4 m-b30" data-aos="fade-up" data-aos-duration="1.50s" data-aos-delay="0.1s">
+            <div class="icon-bx-wraper center">
+              <div class="icon-content">
+                <p>We’re the city’s experts on everything skin and body. No BS, just the best.</p>
+                <div class="icon-md m-b15"> 
+                  <i class="fa fa-star text-primary"></i>
+                </div>
+                <h5>PLEASING SERVICES</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 m-b30" data-aos="fade-up" data-aos-duration="1.50s" data-aos-delay="0.1s">
+            <div class="icon-bx-wraper center">
+              <div class="icon-content">
+                <p>We’re the city’s experts on everything skin and body. No BS, just the best.</p>
+                <div class="icon-md m-b15" > 
+                  <i class="fa fa-star text-primary"></i>
+                </div>
+                <h5>PLEASING SERVICES</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4" data-aos="fade-up" data-aos-duration="1.50s" data-aos-delay="0.1s">
+            <div class="icon-bx-wraper center"> 
+              <div class="icon-content">
+                <p>We’re the city’s experts on everything skin and body. No BS, just the best.</p>
+                <div class="icon-md m-b15"> 
+                  <i class="fa fa-star text-primary"></i>
+                </div>
+                <h5>PLEASING SERVICES</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div> 
+  </div>
+</div>
+</div>
+</div>
+<footer class="bg-white spa-footer p-t100">
+<img src="assets/footer.svg" alt=""/>
+<div class="footer-top text-black">
+      <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4 ">
+              <div class="slideshow-container">
+                <div class="ft-gallery-media beauty-care owl-spa-btn">
+                  <div class="mySlides1 slid">
+                    <div data-aos="fade-down" data-wow-duration="1.50s" data-wow-delay="0.1s"><img src="assets/image/45.jpg" alt=""/></div>
+                  </div>             
+               </div>
+              </div>
+      <div class="text-center m-t100">
+        <h2>connect with us</h2>
+        <ul class="list-inline">								
+          <li><a class="site-button facebook circle"><i class="fa text-white fa-facebook"></i></a></li>
+          <li><a class="site-button google-plus circle"><i class="fa text-white fa-google-plus"></i></a></li>
+          <li><a class="site-button linkedin circle"><i class="fa text-white fa-linkedin"></i></a></li>
+          <li><a class="site-button twitter circle"><i class="fa text-white fa-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-4 text-center equal-col">
+      <h2>ButterFly Location</h2>
+        <img src="assets/image/2.png" alt="" data-aos="zoom-in" data-aos-duration="1.50s" data-aos-delay="0.1s"/>
+        <h2><a href="#" class="site-button-link"><span class="text-primary">Purchase Now</span></a></h2>
+        <p>Special offers - 15% offer on Spa <br/> <a href="#"><span class="text-primary">Read More</span></a></p>
+    </div>
+    <div class="col-md-4 col-sm-4 text-center equal-col dis-tbl">
+      <div class="widget widget_getintuch dis-tbl-cell">
+        <h2 class="m-b30 text-white min-title">ButterFly Location</h2>
+        <p class="p-lr20">ButterFly & Beauty Lab 2145 - 007 - 1566 No 45, Season Street, Livingstone LA, Inc - 4502 
+        <a href="#"><span class="text-primary">info@example.com</span></a>
+        </p>
+      </div>
+    </div>
+   </div>
+</div>
+</div>
+<div class="footer-bg"></div>
+  
+  <div class="footer-bottom">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 col-sm-12 text-center"> <span>Copyright © 2017 ButterFly Theme. All Rights Reserved. Design Themes</span> </div>
+             
+          </div>
+      </div>
+  </div>
+</footer>
